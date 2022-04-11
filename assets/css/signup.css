@@ -1,0 +1,66 @@
+@import url("reuse.css");
+.signup__container {
+    margin-top: 100px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signup__title {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.signup__title, .signup__row > label {
+    color: #fff;
+}
+.signup__row {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.signup__row > label {
+    font-size: 20px;
+    display: inline-block;
+    width: 100px;
+}
+.signup__row > input {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 20px;
+}
+.signup__row > input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.signup__form {
+    position: relative;
+}
+.signup__form > button {
+    position: absolute;
+    left: 87%;
+    top: 100%;
+    background-color: #534EA2;
+    border: none;
+    margin-top: 16px;
+    width: 120px;
+    height: 44px;
+    color: #fff;
+    font-size: 24px;
+    font-family: myriad-regular;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.input12 {
+    width: 100%;
+}
+.input6 {
+    width: 45%;
+}
+.input4 {
+    width: 30%;
+}
